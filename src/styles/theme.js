@@ -6,6 +6,7 @@ export default {
 
     WHITE: "#F4EDE8",
     SALMON: "#FF859B",
+    BG_TAG: "#282124",
 
     GRAY_100: "#999591",
     GRAY_100: "#666360",
