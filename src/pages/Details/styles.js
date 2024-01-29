@@ -6,17 +6,33 @@ export const Container = styled.div`
 
   display: grid;
   grid-template-rows: 105px auto;
-  grid-template-areas: 
-  "header"
-  "content"
-  ;
+  grid-template-areas:
+    "header"
+    "content";
 
   > main {
     grid-area: content;
     overflow-y: scroll;
     padding: 64px 0;
   }
-  `
+
+  ::-webkit-scrollbar {
+    width: 8px;
+
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.COLORS.SALMON};
+
+    border-radius: 8px;
+  }
+`
 
 export const Content = styled.div`
   width: 100%;
