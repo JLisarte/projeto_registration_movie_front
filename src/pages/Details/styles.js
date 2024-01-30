@@ -54,6 +54,20 @@ export const Content = styled.div`
     gap: 10px;
   }
 
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .star{
+    display:flex;
+    flex-direction: row;
+    
+    gap: 10px;
+  }
+
   h1 {
     font-size: 36px;
     font-weight: 500px;
@@ -66,8 +80,8 @@ export const Content = styled.div`
     gap: 8px;
   }
   img {
-    width: 20px;
-    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
   }
   
   .tag {

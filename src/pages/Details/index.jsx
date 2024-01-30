@@ -7,6 +7,7 @@ import { Header } from "../../components/Header"
 import { ButtonText } from "../../components/ButtonText"
 import { Profile } from "../../components/Profile"
 import { Tag } from "../../components/Tag"
+import { Star } from "../../components/Star"
 
 export function Details() {
   return (
@@ -20,7 +21,16 @@ export function Details() {
           </a>
 
           <div>
-            <h1>Interestellar</h1>
+            <div class="title">
+              <h1>Interestellar</h1>
+              <div class="star">
+                <Star isOn />
+                <Star isOn />
+                <Star isOn />
+                <Star isOn />
+                <Star isOff />
+              </div>
+            </div>
 
             <span>
               Por <Profile />
