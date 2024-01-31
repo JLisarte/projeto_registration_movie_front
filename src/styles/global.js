@@ -14,6 +14,23 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  ::-webkit-scrollbar {
+    width: 8px;
+
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.COLORS.SALMON};
+
+    border-radius: 8px;
+  }
+
   body, input, button, textarea {
     font-family: 'Roboto Slab', serif;
     font-size: 16px;

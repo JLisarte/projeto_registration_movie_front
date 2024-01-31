@@ -16,22 +16,6 @@ export const Container = styled.div`
     padding: 64px 0;
   }
 
-  ::-webkit-scrollbar {
-    width: 8px;
-
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: transparent;
-    
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: ${({ theme }) => theme.COLORS.SALMON};
-
-    border-radius: 8px;
-  }
 `
 
 export const Content = styled.div`
