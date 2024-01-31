@@ -1,13 +1,15 @@
-import { FiPlus } from "react-icons/fi"
-import { Container } from "./styles"
+import { FiPlus } from "react-icons/fi";
+import { Container } from "./styles";
 
-export function Button({ title, add = false, ...rest }) {
+export function Button({ title, loading = false, icon: Icon, ...rest }) {
   return (
     <Container 
-      type="button" 
-      disabled={add} 
-      {...rest}>
-      {add ? 'carregando': title}
+      type="button"
+      disabled={loading}
+      {...rest} 
+    >
+      {Icon && <Icon size={20} />}
+      {loading ? 'Carregando...' : title}
     </Container>
   )
 }
