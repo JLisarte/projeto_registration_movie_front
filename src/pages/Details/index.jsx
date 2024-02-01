@@ -17,7 +17,8 @@ export function Details() {
       <main>
         <Content>
           <a href="#">
-            <FiArrowLeft /> <ButtonText title="Voltar" />
+            <FiArrowLeft /> 
+            <ButtonText title="Voltar" />
           </a>
 
           <div>

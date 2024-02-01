@@ -8,7 +8,7 @@ import { Note } from "../../components/Note"
 
 export function Home() {
   return (
-    <Container>
+    <Container >
       <Header />
 
       <div class="firstDiv">
