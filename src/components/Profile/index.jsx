@@ -2,7 +2,7 @@ import { Container } from "./styles"
 
 export function Profile({ title } ) {
   return (
-    <Container>
+    <Container to="/profile">
       <div>
         <strong>Juliano Lisarte</strong>
         <a href="#">{ title }</a>

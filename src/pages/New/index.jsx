@@ -1,5 +1,6 @@
 import { FiArrowLeft } from "react-icons/fi";
 import { Container, Form } from "./styles";
+import { Link } from "react-router-dom"
 
 import { Header } from "../../components/Header";
 import { ButtonText } from "../../components/ButtonText"
@@ -16,10 +17,10 @@ export function New() {
 
       <main>
         <Form>
-          <a href="#">
+          <Link to="/">
             <FiArrowLeft />
             <ButtonText title="Voltar" />
-          </a>
+          </Link>
 
           <h1>Novo filme</h1>
 

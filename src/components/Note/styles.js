@@ -35,10 +35,10 @@ export const Container = styled.div`
   p {
     margin-top: 35px;
 
-    overflow: hidden; // Removendo barra de rolagem
-    text-overflow: ellipsis; // Adicionando "..." ao final
+    overflow: hidden; 
+    text-overflow: ellipsis; 
     display: -webkit-box;
-    -webkit-line-clamp: 2; // Quantidade de linhas
+    -webkit-line-clamp: 2; 
     -webkit-box-orient: vertical;
   }
 

@@ -16,13 +16,13 @@ export function Home() {
           <h1>Meus Filmes</h1>          
         </Brand>
 
-        <NewNote>
+        <NewNote to="/new">
           <Button icon={FiPlus} title="Adicionar Filmes" />
         </NewNote>
       </div>
 
       <Content>
-        <Section>
+        <Section to="/details">
           <Note 
             data={{
               title: "Interestellar",
