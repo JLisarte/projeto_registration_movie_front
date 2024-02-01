@@ -5,7 +5,7 @@ import { Header } from "../../components/Header";
 import { ButtonText } from "../../components/ButtonText"
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea"
-import { Section } from "../../components/Section";
+import { Section } from "../../components/Section"
 import { NoteItem } from "../../components/NoteItem"
 import { Button } from "../../components/Button"
 
@@ -16,9 +16,8 @@ export function New() {
 
       <main>
         <Form>
-
           <a href="#">
-            <FiArrowLeft /> 
+            <FiArrowLeft />
             <ButtonText title="Voltar" />
           </a>
 
@@ -39,7 +38,7 @@ export function New() {
           </Section>
 
           <div class="button">
-            <Button title="Excuir filme" />
+            <Button className="firstButton" title="Excuir filme" />
             <Button title="Salvar alterações" />
           </div>
         </Form>

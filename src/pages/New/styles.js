@@ -33,8 +33,9 @@ export const Container = styled.div`
 
   .noteItem {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 40px;
   }
 
   .button {
@@ -42,6 +43,11 @@ export const Container = styled.div`
     flex-direction: row;
 
     gap: 40px;
+  }
+
+  .firstButton {
+    background-color: ${({ theme }) => theme.COLORS.BG_SECTION};
+    color: ${({ theme }) => theme.COLORS.SALMON};
   }
 `
 
